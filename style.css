@@ -1,0 +1,54 @@
+*{background-color: white;}
+
+#pTitle{
+    color: black; 
+    text-align: center;
+    font: bold;
+    font-size: 3cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title{
+    border-width: 1mm;
+    border-style: solid;
+    border-color: rgb(154, 178, 183);
+
+}
+
+.menuBar{
+    text-emphasis-color: black;
+    text-align: center;
+    font: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    border-width: 1mm;
+    border-style: solid;
+    border-color: rgb(164, 178, 181);
+
+}
+
+.FishEagleImg{
+    margin-right: 10mm;
+    margin-left: 10mm
+}
+
+.Intro .paragraph{
+    /* margin-top: 10mm; */
+    margin-left: 5mm;
+    margin-right: 30mm;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#hBasics{
+    color: black; 
+    text-align: center;
+    font: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Basics .heading{
+    color: black; 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
