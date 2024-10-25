@@ -55,7 +55,7 @@ th, td{
     }
 
     a {
-        float: center;
+        /* float: center; */
         display:inline-block;
         color: black;
         padding:10px 30px;
