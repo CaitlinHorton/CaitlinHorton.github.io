@@ -1,17 +1,20 @@
 /*------ General ------*/
-*{background-color: white;}
+* {
+    background-color: white;
+}
 
-th, td{
+th,
+td {
     margin-left: 30mm;
     margin-right: 10mm;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.title{
+.title {
     border-bottom: 1mm solid rgb(154, 178, 183);
     border-top: 1mm solid rgb(154, 178, 183);
 
-    color: black; 
+    color: black;
     text-align: center;
     font-size: 13mm;
     font: bold;
@@ -19,18 +22,18 @@ th, td{
 
 }
 
-.heading{
+.heading {
     border-bottom: 1mm solid rgb(154, 178, 183);
 
-    color: black; 
+    color: black;
     text-align: center;
     font-size: 9mm;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /*------ Introduction Section ------*/
-#pTitle{
-    color: black; 
+#pTitle {
+    color: black;
     text-align: center;
     font: bold;
     font-size: 3cm;
@@ -43,9 +46,11 @@ th, td{
     font: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
+    /*To get it to stay at the top*/
+    position: sticky;
+    top: 0px;
+
     border-bottom: 1mm;
-    border-right: 0;
-    border-left: 0;
     border-style: solid;
     border-color: rgb(164, 178, 181);
 
@@ -55,7 +60,7 @@ th, td{
     }
 
     a {
-        /* float: center; */
+        float: center;
         display:inline-block;
         color: black;
         padding:10px 30px;
@@ -63,14 +68,16 @@ th, td{
 
 }
 
-.Intro, .paragraph{
+
+.Intro,
+.paragraph {
     margin-left: 5mm;
     margin-right: 30mm;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.FishEagleImg{
+.FishEagleImg {
     margin-right: 10mm;
     margin-left: 10mm
 }
@@ -78,21 +85,24 @@ th, td{
 
 /*------ Apeture Section ------*/
 
-.apetureChartImg{margin-left: 45mm;}
+.apetureChartImg {
+    margin-left: 45mm;
+}
 
-.apetureTable{
+.apetureTable {
     /* padding-left: 10%;
     padding-right: 20%; */
     border-collapse: collapse;
     width: 100%;
 }
 
-.apetureTableHeading{
+.apetureTableHeading {
     font-size: 20px;
     text-align: left;
 }
 
-.apetureTableRow, .apetureTableHeading {  
+.apetureTableRow,
+.apetureTableHeading {
     font-family: Arial, Helvetica, sans-serif;
     border: 5px dotted rgb(154, 178, 183);
 }
